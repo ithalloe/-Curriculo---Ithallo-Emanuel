@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    background-color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+
+#container{
+    border: 3px solid black;
+    border-radius:10px;
+    width: 800px;
+    height: 905px;
+    display: flex;
+    
+}
+
+#foto{
+
+    border-radius: 30px;
+    width: 278px;
+    height: 200px;
+    margin: 10px;
+}
+#foto img{
+
+    border-radius: 15px;
+    width: 278px;
+    height: 200px;
+}
+
+#Infos{
+    border-right: 2px solid black;
+    width: 300px;
+    height: 880px;
+    margin: 10px;
+}
+
+#Infos2{
+    width: 480px;
+    height: 880px;
+    margin: 10px;
+}
+
+#Habilidades{
+    display: flex;
+    width: 278px;
+    height: 200px;
+    margin: 10px;
+}
+
+#Habilidades ul{
+  margin: 15px;
+  font-size: 18px;
+  
+}
+#Habilidades ul li{
+    padding: 5px;
+  }
+
+.Titulos{
+    display: flex;
+    justify-content: center;
+    color: rgb(54, 54, 54)
+}
+
+.Titulos:hover{
+    transform: scale(1.06);
+}
+
+#Escolaridade{
+    display: flex;
+    width: 278px;
+    height: 140px;
+    margin: 10px;
+}
+
+#Escolaridade ul{
+    margin: 15px;
+    font-size: 18px;
+    
+  }
+
+#Escolaridade ul li{
+    padding: 5px;
+  }
+
+#Contatos{
+    display: flex;
+    width: 278px;
+    height: 130px;
+    margin: 10px;
+}
+
+#Contatos ul{
+    margin: 15px;
+    font-size: 18px;
+    
+  }
+
+#Contatos ul li{
+    padding: 5px;
+  }
+
+#Descricao{
+    display: flex;
+    width: 440px;
+    height: 170px;
+    margin: 10px;
+}
+
+#Descricao p{
+    font-size: 18px;
+}
+
+#Experiencia{
+    display: flex;
+    width: 440px;
+    height: 190px;
+    margin: 10px;
+}
+#Experiencia p{
+    font-size: 18px;
+}
+
+#Conquistas{
+    display: flex;
+    width: 440px;
+    height: 340px;
+    margin: 10px;
+}
+
+#Conquistas ul{
+    margin: 15px;
+    font-size: 17px;
+    
+  }
+
+#Conquistas ul li{
+   padding: 3px;
+  }
